@@ -1,6 +1,6 @@
 # MTLAlertView
 
-[![CI Status](http://img.shields.io/travis/kasajei/MTLAlertView.svg?style=flat)](https://travis-ci.org/kasajei/MTLAlertView)
+[![CI Status](http://img.shields.io/travis/kasajei/MTLAlertView.svg?style=flat)](https://travis-ci.org/recruit-mtl/MTLAlertView)
 [![Version](https://img.shields.io/cocoapods/v/MTLAlertView.svg?style=flat)](http://cocoapods.org/pods/MTLAlertView)
 [![License](https://img.shields.io/cocoapods/l/MTLAlertView.svg?style=flat)](http://cocoapods.org/pods/MTLAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/MTLAlertView.svg?style=flat)](http://cocoapods.org/pods/MTLAlertView)
@@ -22,7 +22,7 @@ pod "MTLAlertView"
 
 ## Author
 
-kasajei, sevenbluesea.yk@gmail.com
+- [@kasajei](http://twitter.com/kasajei)
 
 ## License
 
