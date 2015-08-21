@@ -1,0 +1,24 @@
+PODS:
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - MTLAlertView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - MTLAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  MTLAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  MTLAlertView: 3baf5284b76e2c7a83d33ddb4a410deafb10d19f
+
+COCOAPODS: 0.38.2
