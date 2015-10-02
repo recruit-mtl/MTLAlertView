@@ -7,12 +7,28 @@
 //
 
 #import "MTLAppDelegate.h"
+#import "MTLAlertView.h"
+#import "MTLAlertButton.h"
 
 @implementation MTLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // MTLAlertView
+    [MTLAlertView appearance].backgroundImageResizableInsets = UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f);
+    [MTLAlertView appearance].titleFont = [UIFont boldSystemFontOfSize:19.0f];
+    [MTLAlertView appearance].messageFont = [UIFont boldSystemFontOfSize:14.0f];
+    [MTLAlertView appearance].messageMaximumHeight = 400.f;
+    [MTLAlertView appearance].titleAlign = NSTextAlignmentCenter;
+    [MTLAlertView appearance].messageAlign = NSTextAlignmentCenter;
+    
+    // MTLAlertButton
+    [MTLAlertButton appearance].normalButtonFontColor = [UIColor whiteColor];
+    [MTLAlertButton appearance].cancelButtonFontColor = [UIColor grayColor];
+    [MTLAlertButton appearance].normalButtonFont = [UIFont boldSystemFontOfSize:14.f];
+    [MTLAlertButton appearance].cancelButtonFont = [UIFont boldSystemFontOfSize:14.f];
+    [MTLAlertButton appearance].imageResizableInsets = UIEdgeInsetsMake(5.0f, 5.0f, 5.0f, 5.0f);
+
     return YES;
 }
 

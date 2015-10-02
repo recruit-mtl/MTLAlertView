@@ -22,6 +22,15 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D64C41804F7ECE9D8EABCB77 /* Pods_MTLAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49506806DA3D84CD43CD8F05 /* Pods_MTLAlertView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D8EE4B9A1BA806770026175A /* MTLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE4B981BA806770026175A /* MTLAlertView.m */; };
+		D8EE4BA41BA932330026175A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D8EE4B9D1BA932330026175A /* .gitkeep */; };
+		D8EE4BA51BA932330026175A /* MTLAlertViewBg.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EE4B9E1BA932330026175A /* MTLAlertViewBg.png */; };
+		D8EE4BA61BA932330026175A /* MTLAlertViewBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EE4B9F1BA932330026175A /* MTLAlertViewBg@2x.png */; };
+		D8EE4BA71BA932330026175A /* MTLAlertViewBtnCancel.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EE4BA01BA932330026175A /* MTLAlertViewBtnCancel.png */; };
+		D8EE4BA81BA932330026175A /* MTLAlertViewBtnCancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EE4BA11BA932330026175A /* MTLAlertViewBtnCancel@2x.png */; };
+		D8EE4BA91BA932330026175A /* MTLAlertViewBtnSubmit.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EE4BA21BA932330026175A /* MTLAlertViewBtnSubmit.png */; };
+		D8EE4BAA1BA932330026175A /* MTLAlertViewBtnSubmit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EE4BA31BA932330026175A /* MTLAlertViewBtnSubmit@2x.png */; };
+		D8EE4BAD1BA933CF0026175A /* MTLAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EE4BAC1BA933CF0026175A /* MTLAlertButton.m */; };
 		E3AACB63CDC82B521AD0B942 /* Pods_MTLAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1260E0A345B0F2B919BA39A9 /* Pods_MTLAlertView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,7 +50,7 @@
 		264BA26BABA1283B936BAE93 /* Pods-MTLAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTLAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTLAlertView_Tests/Pods-MTLAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F3EC79DF8C2467DF7113165 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		49506806DA3D84CD43CD8F05 /* Pods_MTLAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTLAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* MTLAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MTLAlertView.app; path = MTLAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* MTLAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTLAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,7 +63,7 @@
 		6003F5A5195388D20070C39A /* MTLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* MTLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = MTLAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* MTLAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTLAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -63,6 +72,17 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		666CFE9D9AC57549C5B82B03 /* Pods-MTLAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTLAlertView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTLAlertView_Example/Pods-MTLAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D8EE4B971BA806770026175A /* MTLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLAlertView.h; sourceTree = "<group>"; };
+		D8EE4B981BA806770026175A /* MTLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLAlertView.m; sourceTree = "<group>"; };
+		D8EE4B9D1BA932330026175A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D8EE4B9E1BA932330026175A /* MTLAlertViewBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTLAlertViewBg.png; sourceTree = "<group>"; };
+		D8EE4B9F1BA932330026175A /* MTLAlertViewBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MTLAlertViewBg@2x.png"; sourceTree = "<group>"; };
+		D8EE4BA01BA932330026175A /* MTLAlertViewBtnCancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTLAlertViewBtnCancel.png; sourceTree = "<group>"; };
+		D8EE4BA11BA932330026175A /* MTLAlertViewBtnCancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MTLAlertViewBtnCancel@2x.png"; sourceTree = "<group>"; };
+		D8EE4BA21BA932330026175A /* MTLAlertViewBtnSubmit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTLAlertViewBtnSubmit.png; sourceTree = "<group>"; };
+		D8EE4BA31BA932330026175A /* MTLAlertViewBtnSubmit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MTLAlertViewBtnSubmit@2x.png"; sourceTree = "<group>"; };
+		D8EE4BAB1BA933CF0026175A /* MTLAlertButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLAlertButton.h; sourceTree = "<group>"; };
+		D8EE4BAC1BA933CF0026175A /* MTLAlertButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLAlertButton.m; sourceTree = "<group>"; };
 		E938685703CFE36C67EE3620 /* MTLAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MTLAlertView.podspec; path = ../MTLAlertView.podspec; sourceTree = "<group>"; };
 		FBD37DAF51A8D12EC0A94E6F /* Pods-MTLAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTLAlertView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTLAlertView_Tests/Pods-MTLAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +139,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* MTLAlertView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* MTLAlertView_Example.app */,
+				6003F5AE195388D20070C39A /* MTLAlertView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +161,8 @@
 		6003F593195388D20070C39A /* Example for MTLAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE4B9C1BA932330026175A /* Assets */,
+				D8EE4B951BA806770026175A /* Classes */,
 				6003F59C195388D20070C39A /* MTLAppDelegate.h */,
 				6003F59D195388D20070C39A /* MTLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,6 +215,33 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		D8EE4B951BA806770026175A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE4B971BA806770026175A /* MTLAlertView.h */,
+				D8EE4B981BA806770026175A /* MTLAlertView.m */,
+				D8EE4BAB1BA933CF0026175A /* MTLAlertButton.h */,
+				D8EE4BAC1BA933CF0026175A /* MTLAlertButton.m */,
+			);
+			name = Classes;
+			path = ../../Pod/Classes;
+			sourceTree = "<group>";
+		};
+		D8EE4B9C1BA932330026175A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE4B9D1BA932330026175A /* .gitkeep */,
+				D8EE4B9E1BA932330026175A /* MTLAlertViewBg.png */,
+				D8EE4B9F1BA932330026175A /* MTLAlertViewBg@2x.png */,
+				D8EE4BA01BA932330026175A /* MTLAlertViewBtnCancel.png */,
+				D8EE4BA11BA932330026175A /* MTLAlertViewBtnCancel@2x.png */,
+				D8EE4BA21BA932330026175A /* MTLAlertViewBtnSubmit.png */,
+				D8EE4BA31BA932330026175A /* MTLAlertViewBtnSubmit@2x.png */,
+			);
+			name = Assets;
+			path = ../../Pod/Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,7 +262,7 @@
 			);
 			name = MTLAlertView_Example;
 			productName = MTLAlertView;
-			productReference = 6003F58A195388D20070C39A /* MTLAlertView.app */;
+			productReference = 6003F58A195388D20070C39A /* MTLAlertView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* MTLAlertView_Tests */ = {
@@ -234,7 +283,7 @@
 			);
 			name = MTLAlertView_Tests;
 			productName = MTLAlertViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* MTLAlertView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,9 +325,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8EE4BA91BA932330026175A /* MTLAlertViewBtnSubmit.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				D8EE4BA71BA932330026175A /* MTLAlertViewBtnCancel.png in Resources */,
+				D8EE4BA61BA932330026175A /* MTLAlertViewBg@2x.png in Resources */,
+				D8EE4BA81BA932330026175A /* MTLAlertViewBtnCancel@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D8EE4BA41BA932330026175A /* .gitkeep in Resources */,
+				D8EE4BA51BA932330026175A /* MTLAlertViewBg.png in Resources */,
+				D8EE4BAA1BA932330026175A /* MTLAlertViewBtnSubmit@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +447,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MTLAppDelegate.m in Sources */,
+				D8EE4B9A1BA806770026175A /* MTLAlertView.m in Sources */,
 				6003F5A7195388D20070C39A /* MTLViewController.m in Sources */,
+				D8EE4BAD1BA933CF0026175A /* MTLAlertButton.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
